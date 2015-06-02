@@ -1,0 +1,44 @@
+Working with CVS 
+
+1)Install cvs
+ root@ubuntu~: apt-get install cvs
+ 
+2) Creating repository dir 
+  root@ubuntu~: cvs -d /usr/local/cvsroot init
+
+
+3) cd /usr/local/cvsroot 
+ 
+4) ls  # you can see CVSROOT 
+
+5) mkdir test
+
+6)cd ~
+ 
+7) cd ~
+
+8) cvs checkout test 
+
+9) cd ~/test 
+
+9) touch a.txt 
+
+10) vim a.txt
+ 
+Type test1.1 
+
+11) cvs add a.txt 
+
+12) cvs commit a.txt
+
+13) rm -r ~/test 
+
+14) cvs checkout test 
+
+15) cd test 
+
+16) vim a.txt
+
+
+
+
