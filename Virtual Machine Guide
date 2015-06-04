@@ -10,3 +10,7 @@ geteway 192.168.0.101
 sudo useradd -m -s /bin/bash vinod
 #giving sudo access to the user vinod
 sudo usermod -a -G sudo
+
+#copy the ssh-key
+ssh-copy-id <username>@<host>
+
