@@ -2,14 +2,11 @@
 sudo virsh start <server_name>
 
 #To make the static ip address 
-cd /etc/network/
-sudo vim interface 
-
-#comment out iface eth0 inet dynamic anda paste the following 
-iface eth0 inet static
-address 192.168.0.95
-netmask 255.255.255.0
 network 192.168.0.0
 broadcast 192.168.0.255
 geteway 192.168.0.101
 
+#Creating new user vinod
+sudo useradd -m -s /bin/bash vinod
+#giving sudo access to the user vinod
+sudo usermod -a -G sudo
