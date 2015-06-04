@@ -1,0 +1,22 @@
+FTP, or "File Transfer Protocol" is a popular method of transferring files between two remote systems.
+
+sftp username@remote_hostname_or_IP
+
+This will a list of the available commands:
+
+Available commands:
+bye                                Quit sftp
+cd path                            Change remote directory to 'path'
+chgrp grp path                     Change group of file 'path' to 'grp'
+chmod mode path                    Change permissions of file 'path' to 'mode'
+chown own path                     Change owner of file 'path' to 'own'
+df [-hi] [path]                    Display statistics for current directory or
+                                   filesystem containing 'path'
+exit                               Quit sftp
+get [-Ppr] remote [local]          Download file
+help                               Display this help text
+lcd path                           Change local directory to 'path'
+!				   TO switch to local shell 
+put 				   Copy the local file to server.
+
+
